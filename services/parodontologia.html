@@ -4,9 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Parodontologia | CDC</title>
-  <meta name="description" content="Parodontologia: prevenzione e cura delle gengive, controllo dell'infiammazione e mantenimento." />
+  <meta name="description" content="Parodontologia: diagnosi e trattamento delle patologie gengivali e del supporto dentale." />
+
   <link rel="stylesheet" href="../style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,9 +15,17 @@
 <header class="service-hero">
   <div class="container">
 
-    <nav>
-      <h1><a href="../index.html" style="text-decoration:none;color:#b89b5e;">CDC</a></h1>
-      <a href="../prenota.html" class="btn">Prenota</a>
+    <nav class="nav">
+      <a class="logo" href="../index.html">
+        <span class="logo-mark">CDC</span>
+        <span class="logo-sub">Studio Odontoiatrico</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="../index.html#trattamenti">Trattamenti</a>
+        <a href="../index.html#studio">Studio</a>
+        <a href="../prenota.html" class="btn">Prenota</a>
+      </div>
     </nav>
 
     <div class="breadcrumb">
@@ -27,22 +36,17 @@
 
     <div class="service-hero-content">
       <div class="service-hero-text">
-        <h2>Parodontologia</h2>
+        <h1>Parodontologia</h1>
         <p>
-          La salute gengivale è fondamentale per mantenere denti e impianti nel tempo.
-          La parodontologia si occupa della prevenzione e della cura delle patologie gengivali.
+          La parodontologia si occupa della diagnosi e del trattamento delle patologie gengivali e dei tessuti di supporto
+          del dente. Un controllo precoce è fondamentale per prevenire perdita di osso e mobilità dentale.
         </p>
 
         <div class="benefits">
-          <div>✔ Prevenzione e mantenimento</div>
-          <div>✔ Controllo dell’infiammazione</div>
-          <div>✔ Terapie mirate e personalizzate</div>
-          <div>✔ Stabilità nel tempo</div>
-        </div>
-
-        <div class="service-cta">
-          <a class="btn" href="../prenota.html">Prenota una visita</a>
-          <a class="btn" href="../index.html#trattamenti">Torna ai trattamenti</a>
+          <div>✔ Diagnosi parodontale completa</div>
+          <div>✔ Terapie non chirurgiche e mantenimento</div>
+          <div>✔ Prevenzione della perdita ossea</div>
+          <div>✔ Controlli periodici e follow-up</div>
         </div>
       </div>
 
@@ -53,46 +57,65 @@
 </header>
 
 <section>
-  <h3>Gengive sane, sorriso stabile</h3>
-  <p>
-    La parodontite può evolvere in modo silenzioso. La diagnosi precoce e un piano di mantenimento
-    personalizzato permettono di preservare denti e tessuti di supporto.
-  </p>
+  <div class="container">
+    <h2>Obiettivi del trattamento</h2>
 
-  <div class="faq">
-    <h4>Domande frequenti</h4>
+    <p class="section-intro">
+      L’obiettivo è stabilizzare l’infiammazione, preservare il supporto osseo e mantenere i denti nel tempo,
+      attraverso terapie mirate e un programma di mantenimento personalizzato.
+    </p>
 
-    <details>
-      <summary>Se sanguinano le gengive è grave?</summary>
-      <p>
-        Il sanguinamento è un segnale da non ignorare. Una visita consente di capire la causa e intervenire in modo corretto.
-      </p>
-    </details>
+    <div class="faq">
+      <h3>Domande frequenti</h3>
 
-    <details>
-      <summary>La parodontite si può curare?</summary>
-      <p>
-        Si può controllare con terapia mirata e mantenimento regolare. La prevenzione e i richiami sono fondamentali.
-      </p>
-    </details>
+      <details>
+        <summary>Quali sono i segnali della parodontite?</summary>
+        <p>
+          Gengive che sanguinano, gonfiore, alitosi persistente, recessioni gengivali e mobilità dentale
+          sono segnali che richiedono una valutazione clinica.
+        </p>
+      </details>
 
-    <details>
-      <summary>Quanto sono importanti i richiami di igiene?</summary>
-      <p>
-        Sono essenziali: aiutano a mantenere i risultati e prevenire recidive.
-      </p>
-    </details>
+      <details>
+        <summary>La parodontite si può curare?</summary>
+        <p>
+          La parodontite è una patologia cronica. Può essere controllata e stabilizzata con terapia adeguata
+          e mantenimento regolare, riducendo il rischio di progressione.
+        </p>
+      </details>
+
+      <details>
+        <summary>Ogni quanto servono i controlli?</summary>
+        <p>
+          La frequenza viene definita in base al rischio individuale. In genere si raccomandano controlli
+          e sedute di mantenimento periodiche per preservare stabilità nel tempo.
+        </p>
+      </details>
+    </div>
+
+    <div class="footer-cta" style="margin-top: 26px;">
+      <a href="../prenota.html" class="btn">Prenota una visita</a>
+    </div>
   </div>
 </section>
 
-<footer>
+<footer class="footer">
   <div class="container">
-    <h3>CDC | Contatti</h3>
-    <p>📞 +39 388 345 2110 — ✉️ cristiandavide.crispino.doc@gmail.com</p>
+    <h2>Prenotazione</h2>
+    <p class="section-intro">
+      Per una valutazione parodontale completa e un piano di trattamento, puoi prenotare una visita.
+    </p>
+    <div class="footer-cta">
+      <a href="../prenota.html" class="btn">Prenota una visita</a>
+    </div>
   </div>
 </footer>
 
-<a href="https://wa.me/393883452110" class="whatsapp-fixed" target="_blank" aria-label="Chatta su WhatsApp">💬</a>
+<a href="https://wa.me/393883452110?text=Buongiorno,%20vorrei%20informazioni%20sulla%20parodontologia%20e%20prenotare%20una%20visita."
+   class="whatsapp-fixed"
+   target="_blank"
+   aria-label="Chatta su WhatsApp">💬</a>
 
+<script src="../script.js"></script>
 </body>
 </html>
