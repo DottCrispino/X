@@ -351,3 +351,120 @@ footer h3 {
     grid-template-columns: 1fr;
   }
 }
+/* ===========================
+   EXTRA PREMIUM (SERVIZI)
+=========================== */
+
+/* BREADCRUMB */
+.breadcrumb {
+  text-align: left;
+  font-size: 15px;
+  color: #666;
+  margin-top: 22px;
+}
+
+.breadcrumb a {
+  color: #b89b5e;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+/* FAQ */
+.faq {
+  margin-top: 45px;
+  text-align: left;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  color: #b89b5e;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.faq details {
+  border: 1px solid #ececec;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+}
+
+.faq summary {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.faq p {
+  margin-top: 10px;
+  color: #444;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* CTA PRENOTA */
+.prenota-page {
+  text-align: center;
+}
+
+.prenota-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-top: 35px;
+}
+
+.prenota-card {
+  border: 1px solid #ececec;
+  border-radius: 18px;
+  background: #ffffff;
+  padding: 28px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.03);
+}
+
+.prenota-card h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  color: #b89b5e;
+  margin-bottom: 12px;
+}
+
+.prenota-card p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 18px;
+}
+
+/* BOTTONE WHATSAPP FISSO SU TUTTE LE PAGINE */
+.whatsapp-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  font-size: 28px;
+  padding: 14px 18px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  z-index: 9999;
+}
+
+/* RESPONSIVE EXTRA */
+@media (max-width: 900px) {
+  .breadcrumb {
+    text-align: center;
+  }
+
+  .prenota-grid {
+    grid-template-columns: 1fr;
+  }
+}
